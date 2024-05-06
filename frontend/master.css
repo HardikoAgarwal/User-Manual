@@ -1,0 +1,104 @@
+* {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: ‘Open Sans’, sans-serif;
+	scroll-behavior: smooth;
+}
+.add-user{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(156, 153, 153);
+
+}
+.add-user h2{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+#form{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+#form input{
+    width: 200px;
+    height: fit-content;
+    padding: 8px 22px;
+    font-size: 18px;
+    /* border-radius: 18px; */
+    border: 1px solid black;
+    color: black;
+}
+#form input::placeholder{
+    color: black;
+}
+#form button{
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 18px;
+    font-size: 18px;
+}
+.users{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.users h4{
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 8px;
+    border-left: 4px solid red;
+}
+#user-list{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.user-card{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 0px 0px 12px rgba(234, 58, 58, 0.214);
+    border-radius: 8px;
+}
+.user-card h2{
+    font-size: 26px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(234, 58, 58);
+    color: white;
+}
+.user-card h1{
+    font-size: 28px;
+}
+.user-card h3{
+    font-size: 14px;
+}
